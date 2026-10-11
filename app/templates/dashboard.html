@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Study Planner</h1>
+    </div>
+    <div class="dashboardContainer">
+        <div class="parentLinks">
+            <div class="childLinks">
+                <a href="#">Dashboard</a>
+                <a href="#">Modules</a>
+                <a href="#">Assignments</a>
+                <a href="#">Calender</a>
+                <a href="#">Study Plan</a>
+            </div>
+        </div>
+
+    <div class="overviewContainer">
+        <div class="greeting">
+            <p>Greetings</>
+        </div>
+
+        <div class="assignments-exams">
+            <div class="assignmentCounter">
+                <p>Assignemnts:</p>
+                <p></p>
+            </div>
+            <div class="examsCounter">
+                <p>Upcoming exams:</p>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="deadlineContainer">
+            <div class="deadlineChildContainer">
+                <p>Upcoming Deadlines</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
